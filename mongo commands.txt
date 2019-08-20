@@ -1,0 +1,5 @@
+// to export db
+mongodump -h 127.0.0.1:27017 -d pawinc
+
+// to restore db
+mongorestore -h 127.0.0.1:27017 -d pawinc dump\pawinc\
